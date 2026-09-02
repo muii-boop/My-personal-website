@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Transform Activity</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        h1{
+            margin-top: 20px;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .box{
+            width: 120px;
+            height: 120px;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+        }
+
+        /* Rotate Box */
+        .rotate{
+            background-color: #3498db;
+        }
+
+        .rotate:hover{
+            transform: rotate(45deg);
+        }
+
+        /* Scale Box */
+        .scale{
+            background-color: #2ecc71;
+        }
+
+        .scale:hover{
+            transform: scale(1.5);
+        }
+
+        /* Translate Box */
+        .translate{
+            background-color: #f39c12;
+        }
+
+        .translate:hover{
+            transform: translateX(50px);
+        }
+
+        /* Skew Box */
+        .skew{
+            background-color: #e74c3c;
+        }
+
+        .skew:hover{
+            transform: skewX(20deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Transform Activity</h1>
+    
+    <h2>By Mecaella Miranda | Grade 10 - Garnet</h3>
+
+    <div class="container">
+        <div class="box rotate">Rotate</div>
+        <div class="box scale">Scale</div>
+        <div class="box translate">Translate</div>
+        <div class="box skew">Skew</div>
+    </div>
+
+</body>
+</html>
